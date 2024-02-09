@@ -80,12 +80,13 @@ img {
 }
 
 .education {
-  width: 25%;
+  width: 20%;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin-bottom: 10%;
+  margin-bottom: 5%;
+  padding-left: 10px;
 }
 
 .education dt {
@@ -111,7 +112,7 @@ img {
 }
 
 .professional {
-  width: 25%;
+  width: 20%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -139,12 +140,12 @@ img {
   padding-right: 15%;
 }
 .recognitions {
-  width: 25%;
+  width: 20%;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding-bottom: 20%;
+  padding-bottom: 17.5%;
 }
 
 .recognitions label {
@@ -168,8 +169,8 @@ img {
   list-style-type: none;
 }
 
-.referees {
-  width: 25%;
+.work {
+  width: 20%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -177,19 +178,19 @@ img {
   padding-bottom: 17.5%;
 }
 
-.referees label {
+.work label {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   color: rgba(69, 179, 209, 0.8);
   margin-bottom: 10%;
   font-size: 30px;
-  margin-right: 100px;
+  padding-right: 18%;
   width: 100%;
   margin: 0;
   padding-bottom: 10%;
 }
 
-.referees li {
+.work li {
   font-size: 15px;
   width: 300px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
@@ -197,6 +198,46 @@ img {
   list-style-type: none;
 }
 
-.referees .specific {
+.work .specific {
   padding-top: 10px;
+}
+
+.reference {
+  padding-top: 9.5%;
+  margin-right: 5%;
+}
+.reference label {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: rgba(69, 179, 209, 0.8);
+  margin-bottom: 10%;
+  font-size: 30px;
+  width: 100%;
+  margin: 0;
+  padding-bottom: 10%;
+}
+
+.reference li {
+  list-style-type: none;
+  font-size: 15px;
+  padding-top: 10px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  padding-right: 15%;
+  text-align: center;
+}
+
+.button-container {
+  display: flex;
+  height: 5%;
+  position: absolute;
+  bottom: 30px;
+  right: 0;
+}
+#download {
+  color: rgba(69, 179, 209, 0.8);
+  cursor: pointer;
+}
+
+#download:hover {
+  background-color: rgb(211, 211, 211);
 }
