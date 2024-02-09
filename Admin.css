@@ -77,3 +77,12 @@ img {
   border-top: 2px solid black;
   margin-top: 5%;
 }
+
+label {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+input[type="text"] {
+  width: 400px;
+}
