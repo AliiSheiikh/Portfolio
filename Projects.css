@@ -98,12 +98,9 @@ img {
   padding-bottom: 10%;
 }
 
-.Projects li {
+.Projects p {
   font-size: 15px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  font-size: 15px;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  list-style-type: none;
 }
 
 .Projects .title {
