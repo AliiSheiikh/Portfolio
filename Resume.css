@@ -7,6 +7,7 @@ body {
   border: 0;
   margin: 0;
   padding: 0;
+  overflow: hidden;
 }
 
 .navigation {
@@ -148,7 +149,7 @@ img {
   padding-bottom: 17.5%;
 }
 
-.recognitions label {
+.recognitions #rec {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   color: rgba(69, 179, 209, 0.8);
@@ -178,7 +179,7 @@ img {
   padding-bottom: 17.5%;
 }
 
-.work label {
+.work #wo {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   color: rgba(69, 179, 209, 0.8);
@@ -204,9 +205,9 @@ img {
 
 .reference {
   padding-top: 9.5%;
-  margin-right: 5%;
+  margin-right: 7%;
 }
-.reference label {
+.reference #ref {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   color: rgba(69, 179, 209, 0.8);
